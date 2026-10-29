@@ -1,0 +1,10 @@
+# torch: install the CUDA 12.8 build for RTX 50-series GPUs:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu128
+torch>=2.7
+gymnasium[mujoco]>=1.1
+numpy
+tensorboard
+matplotlib
+pandas
+imageio
+imageio-ffmpeg

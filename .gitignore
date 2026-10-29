@@ -1,0 +1,20 @@
+# Model checkpoints (~1 GB; largest exceeds GitHub's 100 MB file limit)
+*.pt
+
+# TensorBoard event files and raw training logs
+events.out.tfevents.*
+runs/logs/
+
+# Videos: only the key comparison runs are kept
+runs/**/*.mp4
+!runs/sac_s1/eval_best/video.mp4
+!runs/bac_s1/eval_best/video.mp4
+!runs/crossq_posture_s1/eval_best/video.mp4
+!runs/crossq_still_s1/eval_best/video.mp4
+
+# Run-state markers used by run_queue.py
+runs/*/done
+
+__pycache__/
+*.pyc
+.venv/
