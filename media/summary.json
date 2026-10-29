@@ -1,0 +1,385 @@
+{
+  "ppo": {
+    "title": "PPO",
+    "panels": [
+      {
+        "label": "start",
+        "checkpoint": "random",
+        "stock_return": 31043.63610254122,
+        "mean_height": 0.09085990842900805,
+        "final_height": 0.08297776428648838,
+        "max_height": 0.12114533079037561,
+        "frac_standing": 0.0,
+        "frac_sitting": 0.0,
+        "first_stand_step": -1,
+        "final_tilt": 95.18148048659296,
+        "step": 0
+      },
+      {
+        "label": "best",
+        "checkpoint": "runs/ppo_s1/best.pt",
+        "stock_return": 96874.85015514038,
+        "mean_height": 0.28884955695524056,
+        "final_height": 0.2587212846978478,
+        "max_height": 1.0038029295505364,
+        "frac_standing": 0.003,
+        "frac_sitting": 0.23,
+        "first_stand_step": 75,
+        "final_tilt": 68.54243148669394,
+        "step": 2752512
+      },
+      {
+        "label": "final",
+        "checkpoint": "runs/ppo_s1/last.pt",
+        "stock_return": 276833.8044904837,
+        "mean_height": 0.8289322265872079,
+        "final_height": 0.899455601402718,
+        "max_height": 1.1580965304516662,
+        "frac_standing": 0.373,
+        "frac_sitting": 0.619,
+        "first_stand_step": 52,
+        "final_tilt": 18.242978669315168,
+        "step": 9998336
+      }
+    ]
+  },
+  "rpo_sym": {
+    "title": "RPO + symmetry loss",
+    "panels": [
+      {
+        "label": "start",
+        "checkpoint": "random",
+        "stock_return": 31043.63610254122,
+        "mean_height": 0.09085990842900805,
+        "final_height": 0.08297776428648838,
+        "max_height": 0.12114533079037561,
+        "frac_standing": 0.0,
+        "frac_sitting": 0.0,
+        "first_stand_step": -1,
+        "final_tilt": 95.18148048659296,
+        "step": 0
+      },
+      {
+        "label": "best",
+        "checkpoint": "runs/rpo_sym_s1/best.pt",
+        "stock_return": 158522.41813755568,
+        "mean_height": 0.4737870926772225,
+        "final_height": 0.4727518138990425,
+        "max_height": 0.5619275188855919,
+        "frac_standing": 0.0,
+        "frac_sitting": 0.992,
+        "first_stand_step": -1,
+        "final_tilt": 3.2966632652950563,
+        "step": 1253376
+      },
+      {
+        "label": "final",
+        "checkpoint": "runs/rpo_sym_s1/last.pt",
+        "stock_return": 157853.98040014884,
+        "mean_height": 0.47177034619624725,
+        "final_height": 0.4754678883255547,
+        "max_height": 0.49663874057502816,
+        "frac_standing": 0.0,
+        "frac_sitting": 0.992,
+        "first_stand_step": -1,
+        "final_tilt": 4.95943131859384,
+        "step": 1503232
+      }
+    ]
+  },
+  "sac": {
+    "title": "SAC",
+    "panels": [
+      {
+        "label": "start",
+        "checkpoint": "random",
+        "stock_return": 31043.63610254122,
+        "mean_height": 0.09085990842900805,
+        "final_height": 0.08297776428648838,
+        "max_height": 0.12114533079037561,
+        "frac_standing": 0.0,
+        "frac_sitting": 0.0,
+        "first_stand_step": -1,
+        "final_tilt": 95.18148048659296,
+        "step": 0
+      },
+      {
+        "label": "best",
+        "checkpoint": "runs/sac_s1/best.pt",
+        "stock_return": 222832.64031884947,
+        "mean_height": 0.6662912668541741,
+        "final_height": 0.6420858567841715,
+        "max_height": 1.0768612263040296,
+        "frac_standing": 0.054,
+        "frac_sitting": 0.938,
+        "first_stand_step": 48,
+        "final_tilt": 8.431444899491106,
+        "step": 1925000
+      },
+      {
+        "label": "final",
+        "checkpoint": "runs/sac_s1/last.pt",
+        "stock_return": 298900.1656377227,
+        "mean_height": 0.8946400916490183,
+        "final_height": 0.7874894873225784,
+        "max_height": 1.109046327899209,
+        "frac_standing": 0.397,
+        "frac_sitting": 0.595,
+        "first_stand_step": 60,
+        "final_tilt": 20.086571523635655,
+        "step": 2000000
+      }
+    ]
+  },
+  "td3": {
+    "title": "TD3",
+    "panels": [
+      {
+        "label": "start",
+        "checkpoint": "random",
+        "stock_return": 31043.63610254122,
+        "mean_height": 0.09085990842900805,
+        "final_height": 0.08297776428648838,
+        "max_height": 0.12114533079037561,
+        "frac_standing": 0.0,
+        "frac_sitting": 0.0,
+        "first_stand_step": -1,
+        "final_tilt": 95.18148048659296,
+        "step": 0
+      },
+      {
+        "label": "best",
+        "checkpoint": "runs/td3_s1/best.pt",
+        "stock_return": 152682.8173170017,
+        "mean_height": 0.45638823025133335,
+        "final_height": 0.4604920917276636,
+        "max_height": 0.46350825922514977,
+        "frac_standing": 0.0,
+        "frac_sitting": 0.992,
+        "first_stand_step": -1,
+        "final_tilt": 11.466122024788813,
+        "step": 1600000
+      },
+      {
+        "label": "final",
+        "checkpoint": "runs/td3_s1/last.pt",
+        "stock_return": 149849.20904685484,
+        "mean_height": 0.4476915262371166,
+        "final_height": 0.44906581967580883,
+        "max_height": 0.4679440569899296,
+        "frac_standing": 0.0,
+        "frac_sitting": 0.992,
+        "first_stand_step": -1,
+        "final_tilt": 17.851076899313735,
+        "step": 2000000
+      }
+    ]
+  },
+  "bac": {
+    "title": "BAC",
+    "panels": [
+      {
+        "label": "start",
+        "checkpoint": "random",
+        "stock_return": 31043.63610254122,
+        "mean_height": 0.09085990842900805,
+        "final_height": 0.08297776428648838,
+        "max_height": 0.12114533079037561,
+        "frac_standing": 0.0,
+        "frac_sitting": 0.0,
+        "first_stand_step": -1,
+        "final_tilt": 95.18148048659296,
+        "step": 0
+      },
+      {
+        "label": "best",
+        "checkpoint": "runs/bac_s1/best.pt",
+        "stock_return": 354780.9876686903,
+        "mean_height": 1.0627930624770623,
+        "final_height": 1.071863744844105,
+        "max_height": 1.1636963151170585,
+        "frac_standing": 0.957,
+        "frac_sitting": 0.035,
+        "first_stand_step": 37,
+        "final_tilt": 30.181974242768923,
+        "step": 2450000
+      },
+      {
+        "label": "final",
+        "checkpoint": "runs/bac_s1/last.pt",
+        "stock_return": 356899.81300596974,
+        "mean_height": 1.0690504877074585,
+        "final_height": 1.1040724695654798,
+        "max_height": 1.1763512641021021,
+        "frac_standing": 0.965,
+        "frac_sitting": 0.027,
+        "first_stand_step": 35,
+        "final_tilt": 27.599410616230116,
+        "step": 2500000
+      }
+    ]
+  },
+  "crossq": {
+    "title": "CrossQ (1M steps)",
+    "panels": [
+      {
+        "label": "start",
+        "checkpoint": "random",
+        "stock_return": 31043.63610254122,
+        "mean_height": 0.09085990842900805,
+        "final_height": 0.08297776428648838,
+        "max_height": 0.12114533079037561,
+        "frac_standing": 0.0,
+        "frac_sitting": 0.0,
+        "first_stand_step": -1,
+        "final_tilt": 95.18148048659296,
+        "step": 0
+      },
+      {
+        "label": "final",
+        "checkpoint": "runs/crossq_s1/last.pt",
+        "stock_return": 323385.57975194335,
+        "mean_height": 0.9677987291411909,
+        "final_height": 0.8525699711971723,
+        "max_height": 1.2126727684321337,
+        "frac_standing": 0.425,
+        "frac_sitting": 0.567,
+        "first_stand_step": 40,
+        "final_tilt": 16.30553011393327,
+        "step": 1000000
+      }
+    ]
+  },
+  "crossq_long": {
+    "title": "CrossQ continued to 2.5M (no posture reward)",
+    "panels": [
+      {
+        "label": "start",
+        "checkpoint": "runs/crossq_s1/last.pt",
+        "stock_return": 323385.57975194335,
+        "mean_height": 0.9677987291411909,
+        "final_height": 0.8525699711971723,
+        "max_height": 1.2126727684321337,
+        "frac_standing": 0.425,
+        "frac_sitting": 0.567,
+        "first_stand_step": 40,
+        "final_tilt": 16.30553011393327,
+        "step": 1000000
+      },
+      {
+        "label": "best",
+        "checkpoint": "runs/crossq_long_s1/best.pt",
+        "stock_return": 404096.90493854135,
+        "mean_height": 1.2104213966154562,
+        "final_height": 1.2393588944561182,
+        "max_height": 1.257897023262841,
+        "frac_standing": 0.966,
+        "frac_sitting": 0.026,
+        "first_stand_step": 34,
+        "final_tilt": 8.974274664857996,
+        "step": 2425000
+      },
+      {
+        "label": "final",
+        "checkpoint": "runs/crossq_long_s1/last.pt",
+        "stock_return": 329621.33211221255,
+        "mean_height": 0.9868655281073416,
+        "final_height": 1.2269455073441362,
+        "max_height": 1.2536263171532511,
+        "frac_standing": 0.623,
+        "frac_sitting": 0.369,
+        "first_stand_step": 34,
+        "final_tilt": 5.3609422937640145,
+        "step": 2500000
+      }
+    ]
+  },
+  "crossq_posture": {
+    "title": "CrossQ + posture reward",
+    "panels": [
+      {
+        "label": "start",
+        "checkpoint": "runs/crossq_s1/last.pt",
+        "stock_return": 323385.57975194335,
+        "mean_height": 0.9677987291411909,
+        "final_height": 0.8525699711971723,
+        "max_height": 1.2126727684321337,
+        "frac_standing": 0.425,
+        "frac_sitting": 0.567,
+        "first_stand_step": 40,
+        "final_tilt": 16.30553011393327,
+        "step": 1000000
+      },
+      {
+        "label": "best",
+        "checkpoint": "runs/crossq_posture_s1/best.pt",
+        "stock_return": 401678.78354004124,
+        "mean_height": 1.2028651120450926,
+        "final_height": 1.2282024735102306,
+        "max_height": 1.2485338567542636,
+        "frac_standing": 0.966,
+        "frac_sitting": 0.026,
+        "first_stand_step": 34,
+        "final_tilt": 1.0709547482702715,
+        "step": 2425000
+      },
+      {
+        "label": "final",
+        "checkpoint": "runs/crossq_posture_s1/last.pt",
+        "stock_return": 400572.00503312144,
+        "mean_height": 1.1996697488575867,
+        "final_height": 1.2228568029500397,
+        "max_height": 1.2413300560745184,
+        "frac_standing": 0.966,
+        "frac_sitting": 0.026,
+        "first_stand_step": 34,
+        "final_tilt": 2.024122325822209,
+        "step": 2500000
+      }
+    ]
+  },
+  "crossq_still": {
+    "title": "CrossQ + posture + stillness",
+    "panels": [
+      {
+        "label": "start",
+        "checkpoint": "runs/crossq_posture_s1/last.pt",
+        "stock_return": 400572.00503312144,
+        "mean_height": 1.1996697488575867,
+        "final_height": 1.2228568029500397,
+        "max_height": 1.2413300560745184,
+        "frac_standing": 0.966,
+        "frac_sitting": 0.026,
+        "first_stand_step": 34,
+        "final_tilt": 2.024122325822209,
+        "step": 2500000
+      },
+      {
+        "label": "best",
+        "checkpoint": "runs/crossq_still_s1/best.pt",
+        "stock_return": 400503.5602752493,
+        "mean_height": 1.1992308062627521,
+        "final_height": 1.225351568922191,
+        "max_height": 1.2273716862340351,
+        "frac_standing": 0.964,
+        "frac_sitting": 0.028,
+        "first_stand_step": 36,
+        "final_tilt": 0.9932123026700735,
+        "step": 3350000
+      },
+      {
+        "label": "final",
+        "checkpoint": "runs/crossq_still_s1/last.pt",
+        "stock_return": 400586.7875027885,
+        "mean_height": 1.1995838113030959,
+        "final_height": 1.2272248708744857,
+        "max_height": 1.2355428384407265,
+        "frac_standing": 0.964,
+        "frac_sitting": 0.028,
+        "first_stand_step": 36,
+        "final_tilt": 2.984976147462973,
+        "step": 3500000
+      }
+    ]
+  }
+}
